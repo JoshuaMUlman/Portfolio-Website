@@ -1,0 +1,30 @@
+#top-bar {
+    background-color: blue;
+    flex: 100%;
+    width: 100vw;
+    height: 15vh;
+}
+
+#nav-bar {
+    background-color: green;
+    flex: 10%;
+    height: 100vh;
+}
+
+#main-page {
+    background-color: orange;
+    flex: 85%;
+}
+
+#wrapper-div {
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    
+    top: 0;
+    left: 0;
+}
